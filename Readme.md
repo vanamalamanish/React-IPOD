@@ -35,4 +35,4 @@ To create a Production build of the application, run:
 
 npm run build
 
-this will create a build directory with the production build of the application.
+this will create a build directory with the production build of the application IPOD.
