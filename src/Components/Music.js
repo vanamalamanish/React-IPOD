@@ -13,7 +13,7 @@ class Music extends Component {
       isPlaying: false,
       currentSongIndex: 0,
     };
-    this.audio = new Audio("./songs/1.mp3");
+    this.audio = new Audio(songs[0].src);
   }
 
   togglePlayPause = () => {
