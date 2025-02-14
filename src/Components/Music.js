@@ -1,9 +1,8 @@
 import React, { Component } from "react";
 
 const songs = [
-  { title: "Song 1", src: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" },
-  { title: "Song 2", src: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" },
-  { title: "Song 3", src: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3" },
+  { title: "Badaas", src: "/songs/1.mp3" },
+  { title: "Bujji Talli", src: "/songs/2.mp3" }
 ];
 
 class Music extends Component {
