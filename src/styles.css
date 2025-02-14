@@ -1,0 +1,127 @@
+/* General Styling */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: radial-gradient(circle, #222, #000);
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+/* iPod Container */
+.ipod {
+  width: 280px;
+  height: 480px;
+  border-radius: 25px;
+  background: linear-gradient(to bottom, #f8f8f8, #e0e0e0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid #aaa;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+}
+
+/* iPod Screen */
+.screen {
+  width: 240px;
+  height: 200px;
+  background: linear-gradient(to bottom, #111, #333);
+  color: white;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border: 3px solid #777;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Menu List */
+.menu {
+  width: 100%;
+  padding: 10px;
+  list-style: none;
+}
+
+.menu li {
+  padding: 10px;
+  font-size: 16px;
+  text-align: left;
+  transition: all 0.3s ease-in-out;
+  border-radius: 5px;
+}
+
+.menu li.selected {
+  background: rgba(255, 255, 255, 0.2);
+  font-weight: bold;
+  transform: scale(1.05);
+}
+
+/* Controls & Wheel */
+.controls {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #ddd, #bbb);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #888;
+  margin-top: 55px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.wheel {
+  position: relative;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #ccc, #999);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #777;
+  box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Center Button */
+.center-btn {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: linear-gradient(to bottom, #fff, #ddd);
+  border: 2px solid #888;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Circular Buttons */
+.menu-btn,
+.up-btn,
+.down-btn {
+  position: absolute;
+  background: transparent;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+.menu-btn {
+  top: -40px;
+}
+
+.up-btn {
+  top: 10px;
+}
+
+.down-btn {
+  bottom: 10px;
+}
