@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/React-IPOD/static/css/main.f5066a53.css",
+    "main.js": "/React-IPOD/static/js/main.c34fda50.js",
+    "index.html": "/React-IPOD/index.html",
+    "main.f5066a53.css.map": "/React-IPOD/static/css/main.f5066a53.css.map",
+    "main.c34fda50.js.map": "/React-IPOD/static/js/main.c34fda50.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f5066a53.css",
+    "static/js/main.c34fda50.js"
+  ]
+}
